@@ -13,7 +13,7 @@ from PIL import Image, ImageDraw
 #from ultralytics import YOLO
 
 # Load YOLOv5 model
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='C:/Users/kesavan/Desktop/AI project 1/codes/streamlit app/best.pt', force_reload=True)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', force_reload=True)
 #model = YOLO('C:/Users/kesavan/Desktop/AI project 1/codes/streamlit app/bestyv8.pt')
 # Define function to perform object detection
 def detect_objects(image):
